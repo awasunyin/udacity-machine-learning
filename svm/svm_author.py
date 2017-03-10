@@ -25,7 +25,8 @@ features_train, features_test, labels_train, labels_test = preprocess()
 from sklearn import svm
 from sklearn.metrics import accuracy_score
 
-linear_kernel_svm = svm.SVC(kernel='linear', C=1.0)
+#Changed 'linear' to 'rbf'
+linear_kernel_svm = svm.SVC(kernel='linear', C=500.0)
 
 features_train = features_train[:len(features_train)/100]
 labels_train = labels_train[:len(labels_train)/100]

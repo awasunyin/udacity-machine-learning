@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7180a1ca-b534-489d-862a-09b520e065a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svm/svm-mini-project.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/svm/svm_author.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/svm-1/svm-exercise.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svm/svm-mini-project.py" afterPath="$PROJECT_DIR$/svm/svm-mini-project.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/svm/svm_author.py" afterPath="$PROJECT_DIR$/svm/svm_author.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,9 +13,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/udacity-machine-learning$svm_mini_project.coverage" NAME="svm-mini-project Coverage Results" MODIFIED="1489103977255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$svm_exercise.coverage" NAME="svm-exercise Coverage Results" MODIFIED="1488917233723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm-1" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$nb_author_id.coverage" NAME="nb_author_id Coverage Results" MODIFIED="1488915686568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/naive_bayes" />
-    <SUITE FILE_PATH="coverage/udacity-machine-learning$svm_author.coverage" NAME="svm_author Coverage Results" MODIFIED="1489103496388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm" />
+    <SUITE FILE_PATH="coverage/udacity-machine-learning$svm_author.coverage" NAME="svm_author Coverage Results" MODIFIED="1489103876271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -25,21 +24,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="svm-mini-project.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="svm-mini-project.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/svm/svm-mini-project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="372">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svm_author.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="svm_author.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svm/svm_author.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="117">
+              <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="50" />
               <folding>
                 <element signature="e#212#222#0" expanded="true" />
               </folding>
@@ -66,8 +67,8 @@
         <option value="$PROJECT_DIR$/NB_accuracy/classify.py" />
         <option value="$PROJECT_DIR$/naive_bayes/nb_author_id.py" />
         <option value="$PROJECT_DIR$/svm-1/svm-exercise.py" />
-        <option value="$PROJECT_DIR$/svm/svm-mini-project.py" />
         <option value="$PROJECT_DIR$/svm/svm_author.py" />
+        <option value="$PROJECT_DIR$/svm/svm-mini-project.py" />
       </list>
     </option>
   </component>
@@ -138,7 +139,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v6.10.0/bin/node" />
   </component>
-  <component name="RunManager" selected="Python.svm_author">
+  <component name="RunManager" selected="Python.svm-mini-project">
     <configuration default="false" name="nb_author_id" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,6 +190,24 @@
       <module name="udacity-machine-learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svm/svm_author.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="svm-mini-project" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/svm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="udacity-machine-learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svm/svm-mini-project.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -407,16 +426,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.nb_author_id" />
       <item index="1" class="java.lang.String" itemvalue="Python.svm-exercise" />
       <item index="2" class="java.lang.String" itemvalue="Python.svm_author" />
+      <item index="3" class="java.lang.String" itemvalue="Python.svm-mini-project" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.svm_author" />
-        <item index="1" class="java.lang.String" itemvalue="Python.svm-exercise" />
-        <item index="2" class="java.lang.String" itemvalue="Python.nb_author_id" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.svm-mini-project" />
+        <item index="1" class="java.lang.String" itemvalue="Python.svm_author" />
+        <item index="2" class="java.lang.String" itemvalue="Python.svm-exercise" />
+        <item index="3" class="java.lang.String" itemvalue="Python.nb_author_id" />
       </list>
     </recent_temporary>
   </component>
@@ -532,20 +553,22 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/svm-1/svm-exercise.py" />
-    <entry file="file://$PROJECT_DIR$/svm/svm-mini-project.py">
+    <entry file="file://$PROJECT_DIR$/svm/svm_author.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="117">
+          <caret line="28" column="50" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="50" />
+          <folding>
+            <element signature="e#212#222#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/svm/svm_author.py">
+    <entry file="file://$PROJECT_DIR$/svm/svm-mini-project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="372">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#212#222#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
