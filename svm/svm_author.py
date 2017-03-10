@@ -1,7 +1,20 @@
 #!/usr/bin/python
 
 """
-    This is the code to accompany the Lesson 2 (SVM) mini-project.
+
+   Hopefully it’s becoming clearer what Sebastian meant when he said Naive Bayes
+   is great for text--it’s faster and generally gives better performance than an
+   SVM for this particular problem. Of course, there are plenty of other problems
+   where an SVM might work better. Knowing which one to try when you’re tackling a
+   problem for the first time is part of the art and science of machine learning.
+   In addition to picking your algorithm, depending on which one you try,
+   there are parameter tunes to worry about as well, and the possibility of overfitting
+   (especially if you don’t have lots of training data).
+
+   Our general suggestion is to try a few different algorithms for each problem.
+   Tuning the parameters can be a lot of work, but just sit tight for now--toward
+   the end of the class we will introduce you to GridCV, a great sklearn tool that
+   can find an optimal parameter tune almost automatically.
 
     Use a SVM to identify emails from the Enron corpus by their authors:
     Sara has label 0
