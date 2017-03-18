@@ -33,7 +33,7 @@ output_image("test.png", "png", open("test.png", "rb").read())
 # reg.coef_
 # reg.intercept_
 
-# stats on test data set
+# stats on test data set r-squared higher the better
 # r-squared score: reg.score(ages_test, net_worths_test)
 
 # stats on training data set
