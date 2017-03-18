@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7180a1ca-b534-489d-862a-09b520e065a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/final_project/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regression-exercises/studentMain.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regression-exercises/studentRegression.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets_questions/explore_enron_data.py" afterPath="$PROJECT_DIR$/datasets_questions/explore_enron_data.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/udacity-machine-learning$svm_mini_project.coverage" NAME="svm-mini-project Coverage Results" MODIFIED="1489392611342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$dt_author_id__1_.coverage" NAME="dt_author_id (1) Coverage Results" MODIFIED="1489398437977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree" />
-    <SUITE FILE_PATH="coverage/udacity-machine-learning$studentMain.coverage" NAME="studentMain Coverage Results" MODIFIED="1489392633802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision-trees/coding-a-decision-tree" />
+    <SUITE FILE_PATH="coverage/udacity-machine-learning$studentMain.coverage" NAME="studentMain Coverage Results" MODIFIED="1489835642388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regression-exercises" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$svm_exercise.coverage" NAME="svm-exercise Coverage Results" MODIFIED="1488917233723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm-1" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$your_algorithm.coverage" NAME="your_algorithm Coverage Results" MODIFIED="1489409381424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/choose_your_own" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$nb_author_id.coverage" NAME="nb_author_id Coverage Results" MODIFIED="1488915686568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/naive_bayes" />
@@ -42,11 +42,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="explore_enron_data.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/datasets_questions/explore_enron_data.py">
+      <file leaf-file-name="studentMain.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regression-exercises/studentMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+            <state relative-caret-position="585">
+              <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+              <folding>
+                <element signature="e#19#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentRegression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/regression-exercises/studentRegression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -83,6 +95,8 @@
         <option value="$PROJECT_DIR$/decision_tree/dt_author_id.py" />
         <option value="$PROJECT_DIR$/choose_your_own/your_algorithm.py" />
         <option value="$PROJECT_DIR$/datasets_questions/explore_enron_data.py" />
+        <option value="$PROJECT_DIR$/regression-exercises/studentRegression.py" />
+        <option value="$PROJECT_DIR$/regression-exercises/studentMain.py" />
       </list>
     </option>
   </component>
@@ -135,21 +149,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="decision_tree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="udacity-machine-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="udacity-machine-learning" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datasets_questions" />
+              <option name="myItemId" value="regression-exercises" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -176,25 +176,7 @@
       <recent name="$PROJECT_DIR$/tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.explore_enron_data">
-    <configuration default="false" name="entropy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/decision-trees/coding-a-decision-tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="udacity-machine-learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/decision-trees/coding-a-decision-tree/entropy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.studentMain">
     <configuration default="false" name="dt_author_id" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,6 +245,24 @@
       <module name="udacity-machine-learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datasets_questions/explore_enron_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="studentMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/regression-exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="udacity-machine-learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regression-exercises/studentMain.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -482,19 +482,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.entropy" />
-      <item index="1" class="java.lang.String" itemvalue="Python.dt_author_id" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dt_author_id (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.your_algorithm" />
-      <item index="4" class="java.lang.String" itemvalue="Python.explore_enron_data" />
+      <item index="0" class="java.lang.String" itemvalue="Python.dt_author_id" />
+      <item index="1" class="java.lang.String" itemvalue="Python.dt_author_id (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Python.your_algorithm" />
+      <item index="3" class="java.lang.String" itemvalue="Python.explore_enron_data" />
+      <item index="4" class="java.lang.String" itemvalue="Python.studentMain" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.explore_enron_data" />
-        <item index="1" class="java.lang.String" itemvalue="Python.your_algorithm" />
-        <item index="2" class="java.lang.String" itemvalue="Python.dt_author_id (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.dt_author_id" />
-        <item index="4" class="java.lang.String" itemvalue="Python.entropy" />
+        <item index="0" class="java.lang.String" itemvalue="Python.studentMain" />
+        <item index="1" class="java.lang.String" itemvalue="Python.explore_enron_data" />
+        <item index="2" class="java.lang.String" itemvalue="Python.your_algorithm" />
+        <item index="3" class="java.lang.String" itemvalue="Python.dt_author_id (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.dt_author_id" />
       </list>
     </recent_temporary>
   </component>
@@ -577,13 +577,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/choose_your_own/your_algorithm.py">
+    <entry file="file://$PROJECT_DIR$/datasets_questions/explore_enron_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#50#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -591,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,9 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,9 +603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,9 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -631,9 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,9 +624,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#19#50#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/choose_your_own/your_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -651,9 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="e#19#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,17 +862,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-          <folding>
-            <element signature="e#19#50#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/datasets_questions/explore_enron_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="118" column="21" lean-forward="false" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+        <state relative-caret-position="125">
+          <caret line="97" column="50" lean-forward="false" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regression-exercises/studentRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regression-exercises/studentMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="57" lean-forward="false" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+          <folding>
+            <element signature="e#19#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
