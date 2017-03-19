@@ -5,13 +5,11 @@ import numpy
 import matplotlib.pyplot as plt
 import pickle
 
-from outlier_cleaner import outlierCleaner
-
 
 ### load up some practice data with outliers in it
 ages = pickle.load( open("practice_outliers_ages.pkl", "r") )
 net_worths = pickle.load( open("practice_outliers_net_worths.pkl", "r") )
-
+print("1")
 
 
 ### ages and net_worths need to be reshaped into 2D numpy arrays
@@ -44,26 +42,26 @@ print(slope,intercept,test_score, training_score)
 
 try:
     plt.plot(ages, reg.predict(ages), color="blue")
+    print("plot")
 except NameError:
+    print("error")
     pass
 plt.scatter(ages, net_worths)
-plt.show()
 
+from outlier_cleaner import outlierCleaner
+
+print ("hello")
 
 ### identify and remove the most outlier-y points
 cleaned_data = []
 try:
     predictions = reg.predict(ages_train)
+    print("this")
     cleaned_data = outlierCleaner( predictions, ages_train, net_worths_train )
+    print(len(cleaned_data))
 except NameError:
     print "your regression object doesn't exist, or isn't name reg"
     print "can't make predictions to use in identifying outliers"
-
-
-
-
-
-
 
 ### only run this code if cleaned_data is returning data
 if len(cleaned_data) > 0:
@@ -74,17 +72,20 @@ if len(cleaned_data) > 0:
     ### refit your cleaned data!
     try:
         reg.fit(ages, net_worths)
+        print "slope (w/o outliers):", reg.coef_
+        print "r^2 (test w/o outliers)", reg.score(ages_test, net_worths_test)
         plt.plot(ages, reg.predict(ages), color="blue")
+        # slope (w/o outliers): [[ 6.36859481]]
+        # r^2 (test w/o outliers) 0.983189455396
     except NameError:
         print "you don't seem to have regression imported/created,"
         print "   or else your regression object isn't named reg"
         print "   either way, only draw the scatter plot of the cleaned data"
     plt.scatter(ages, net_worths)
     plt.xlabel("ages")
-    plt.ylabel("net worths")
-    plt.show()
 
-
+    print("cleaned_data")
 else:
     print "outlierCleaner() is returning an empty list, no refitting to be done"
 
+plt.show() #plot blocks execution!!
