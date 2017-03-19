@@ -51,3 +51,5 @@ def submitFit():
 """{"slope": 6.4735495495770587, "stats on training": 0.87458823582171863,
 "intercept": -14.353783307755521, "stats on test": 0.81236572923084704,
 "networth": 160.43205453082507}"""
+
+# error = actual net worth - predicted net worth
