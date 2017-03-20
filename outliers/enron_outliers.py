@@ -49,7 +49,7 @@ data = featureFormat(data_dict, features)
 
 # visualisation to find outliers
 
-for point in data:
+for point in data:  
     salary = point[0]
     bonus = point[1]
     matplotlib.pyplot.scatter( salary, bonus )
