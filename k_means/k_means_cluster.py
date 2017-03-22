@@ -41,7 +41,7 @@ def Draw(pred, features, poi, mark_poi=False, name="image.png", f1_name="feature
     plt.xlabel(f1_name)
     plt.ylabel(f2_name)
     plt.savefig(name)
-    plt.show()
+    #plt.show()
 
 
 
@@ -81,12 +81,16 @@ Draw(pred, finance_features, poi, name="clusters_before_scaling.pdf", f1_name=fe
 
 
 # Rescale salary and exercised_stock_options
+# What would be the rescaled value of a "salary"
+# feature that had an original value of $200,000,
+# and an "exercised_stock_options" feature of $1 million?
 from sklearn.preprocessing import MinMaxScaler
 
 scaler = MinMaxScaler()
 data3 = featureFormat(data_dict, [feature_1, feature_2])
 data3_scaled = scaler.fit_transform(data3)
 print scaler.transform([[200000.,1000000.]])
+# [ 0.17997621  0.02911345]
 
 
 ### rename the "name" parameter when you change the number of features
@@ -97,3 +101,6 @@ except NameError:
     print "no predictions object named pred found, no clusters to plot"
 
 plt.show()
+
+"""Emails typically number in the hundreds or low thousands,
+salaries are usually at least 1000x higher."""
