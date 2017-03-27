@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7180a1ca-b534-489d-862a-09b520e065a6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature-selection-exercises/poi_flag_email.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature-selection-exercises/studentMain.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature-selection-exercises/get_data.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/feature-selection-exercises/studentCode.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/feature-selection-exercises/poi_flag_email.py" afterPath="$PROJECT_DIR$/feature-selection-exercises/poi_flag_email.py" />
     </list>
     <ignored path="maildir/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,27 +19,28 @@
     <SUITE FILE_PATH="coverage/udacity-machine-learning$snowball_stemmer.coverage" NAME="snowball-stemmer Coverage Results" MODIFIED="1490265057398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text-learning-exercises" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$outlier_removal_regression.coverage" NAME="outlier_removal_regression Coverage Results" MODIFIED="1489922340777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/outliers" />
     <SUITE FILE_PATH="coverage/udacity_machine_learning$vectorize_text.coverage" NAME="vectorize_text Coverage Results" MODIFIED="1490461751893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text_learning" />
-    <SUITE FILE_PATH="coverage/udacity-machine-learning$regressionQuiz.coverage" NAME="regressionQuiz Coverage Results" MODIFIED="1489836297510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regression-exercises" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$bag_of_words_sklearn.coverage" NAME="bag-of-words-sklearn Coverage Results" MODIFIED="1490204518805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text-learning-exercises" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$svm_mini_project.coverage" NAME="svm-mini-project Coverage Results" MODIFIED="1489392611342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$dt_author_id__1_.coverage" NAME="dt_author_id (1) Coverage Results" MODIFIED="1489398437977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision_tree" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$svm_author.coverage" NAME="svm_author Coverage Results" MODIFIED="1489103876271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm" />
-    <SUITE FILE_PATH="coverage/udacity-machine-learning$entropy.coverage" NAME="entropy Coverage Results" MODIFIED="1489396095504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision-trees/coding-a-decision-tree" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$mim_max_scaler_sklearn.coverage" NAME="mim-max-scaler-sklearn Coverage Results" MODIFIED="1490197693743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feature-scaling" />
-    <SUITE FILE_PATH="coverage/udacity-machine-learning$explore_enron_data.coverage" NAME="explore_enron_data Coverage Results" MODIFIED="1489916556616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datasets_questions" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$stopwords_NLTK.coverage" NAME="stopwords-NLTK Coverage Results" MODIFIED="1490207602570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text-learning-exercises" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$dt_author_id.coverage" NAME="dt_author_id Coverage Results" MODIFIED="1489398078901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision-trees/decision-tree-mini-project" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$startup.coverage" NAME="startup Coverage Results" MODIFIED="1490453890320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
-    <SUITE FILE_PATH="coverage/udacity-machine-learning$svm_exercise.coverage" NAME="svm-exercise Coverage Results" MODIFIED="1488917233723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm-1" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$k_means_cluster.coverage" NAME="k_means_cluster Coverage Results" MODIFIED="1490198227260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/k_means" />
-    <SUITE FILE_PATH="coverage/udacity-machine-learning$studentMain.coverage" NAME="studentMain Coverage Results" MODIFIED="1489835642388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regression-exercises" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$nb_author_id.coverage" NAME="nb_author_id Coverage Results" MODIFIED="1488915686568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/naive_bayes" />
-    <SUITE FILE_PATH="coverage/udacity-machine-learning$outlier_cleaner.coverage" NAME="outlier_cleaner Coverage Results" MODIFIED="1489921100695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/outliers" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$vectorize_text.coverage" NAME="vectorize_text Coverage Results" MODIFIED="1490453745517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/text_learning" />
-    <SUITE FILE_PATH="coverage/udacity-machine-learning$parse_out_email_text.coverage" NAME="parse_out_email_text Coverage Results" MODIFIED="1490270743068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$your_algorithm.coverage" NAME="your_algorithm Coverage Results" MODIFIED="1489409381424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/choose_your_own" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$enron_outliers.coverage" NAME="enron_outliers Coverage Results" MODIFIED="1490004462575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/outliers" />
     <SUITE FILE_PATH="coverage/udacity-machine-learning$finance_regression.coverage" NAME="finance_regression Coverage Results" MODIFIED="1489917371453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regression" />
+    <SUITE FILE_PATH="coverage/udacity-machine-learning$regressionQuiz.coverage" NAME="regressionQuiz Coverage Results" MODIFIED="1489836297510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regression-exercises" />
+    <SUITE FILE_PATH="coverage/udacity-machine-learning$entropy.coverage" NAME="entropy Coverage Results" MODIFIED="1489396095504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/decision-trees/coding-a-decision-tree" />
+    <SUITE FILE_PATH="coverage/udacity-machine-learning$explore_enron_data.coverage" NAME="explore_enron_data Coverage Results" MODIFIED="1489916556616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datasets_questions" />
+    <SUITE FILE_PATH="coverage/udacity-machine-learning$svm_exercise.coverage" NAME="svm-exercise Coverage Results" MODIFIED="1488917233723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm-1" />
+    <SUITE FILE_PATH="coverage/udacity-machine-learning$studentMain.coverage" NAME="studentMain Coverage Results" MODIFIED="1489835642388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regression-exercises" />
+    <SUITE FILE_PATH="coverage/udacity-machine-learning$outlier_cleaner.coverage" NAME="outlier_cleaner Coverage Results" MODIFIED="1489921100695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/outliers" />
+    <SUITE FILE_PATH="coverage/udacity_machine_learning$poi_flag_email.coverage" NAME="poi_flag_email Coverage Results" MODIFIED="1490640793622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/feature-selection-exercises" />
+    <SUITE FILE_PATH="coverage/udacity-machine-learning$parse_out_email_text.coverage" NAME="parse_out_email_text Coverage Results" MODIFIED="1490270743068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -57,38 +59,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vectorize_text.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/text_learning/vectorize_text.py">
+      <file leaf-file-name="studentCode.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/feature-selection-exercises/studentCode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="101">
+              <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
               <folding>
-                <element signature="e#19#28#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poi_flag_email.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/feature-selection-exercises/poi_flag_email.py">
+      <file leaf-file-name="get_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feature-selection-exercises/get_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
-              <folding>
-                <element signature="e#137#147#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="studentMain.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/feature-selection-exercises/studentMain.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-              <folding>
-                <element signature="e#19#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2265">
+              <caret line="151" column="15" lean-forward="false" selection-start-line="151" selection-start-column="15" selection-end-line="151" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -140,8 +128,10 @@
         <option value="$PROJECT_DIR$/text-learning-exercises/snowball-stemmer.py" />
         <option value="$PROJECT_DIR$/tools/parse_out_email_text.py" />
         <option value="$PROJECT_DIR$/text_learning/vectorize_text.py" />
-        <option value="$PROJECT_DIR$/feature-selection-exercises/poi_flag_email.py" />
         <option value="$PROJECT_DIR$/feature-selection-exercises/studentMain.py" />
+        <option value="$PROJECT_DIR$/feature-selection-exercises/poi_flag_email.py" />
+        <option value="$PROJECT_DIR$/feature-selection-exercises/get_data.py" />
+        <option value="$PROJECT_DIR$/feature-selection-exercises/studentCode.py" />
       </list>
     </option>
   </component>
@@ -172,7 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -187,6 +176,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,26 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.vectorize_text">
-    <configuration default="false" name="stopwords-NLTK" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/text-learning-exercises" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="udacity-machine-learning" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text-learning-exercises/stopwords-NLTK.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.poi_flag_email">
     <configuration default="false" name="snowball-stemmer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,6 +308,25 @@
       <module name="udacity-machine-learning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/startup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="poi_flag_email" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/feature-selection-exercises" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="udacity-machine-learning" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/feature-selection-exercises/poi_flag_email.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -525,19 +515,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.stopwords-NLTK" />
-      <item index="1" class="java.lang.String" itemvalue="Python.snowball-stemmer" />
-      <item index="2" class="java.lang.String" itemvalue="Python.parse_out_email_text" />
-      <item index="3" class="java.lang.String" itemvalue="Python.vectorize_text" />
-      <item index="4" class="java.lang.String" itemvalue="Python.startup" />
+      <item index="0" class="java.lang.String" itemvalue="Python.snowball-stemmer" />
+      <item index="1" class="java.lang.String" itemvalue="Python.parse_out_email_text" />
+      <item index="2" class="java.lang.String" itemvalue="Python.vectorize_text" />
+      <item index="3" class="java.lang.String" itemvalue="Python.startup" />
+      <item index="4" class="java.lang.String" itemvalue="Python.poi_flag_email" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.vectorize_text" />
-        <item index="1" class="java.lang.String" itemvalue="Python.startup" />
-        <item index="2" class="java.lang.String" itemvalue="Python.parse_out_email_text" />
-        <item index="3" class="java.lang.String" itemvalue="Python.snowball-stemmer" />
-        <item index="4" class="java.lang.String" itemvalue="Python.stopwords-NLTK" />
+        <item index="0" class="java.lang.String" itemvalue="Python.poi_flag_email" />
+        <item index="1" class="java.lang.String" itemvalue="Python.vectorize_text" />
+        <item index="2" class="java.lang.String" itemvalue="Python.startup" />
+        <item index="3" class="java.lang.String" itemvalue="Python.parse_out_email_text" />
+        <item index="4" class="java.lang.String" itemvalue="Python.snowball-stemmer" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -587,7 +577,7 @@
     <frame x="44" y="23" width="1225" height="722" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23922232" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24344885" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -641,20 +631,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/svm/svm_author.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/svm/svm-mini-project.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/svm/svm-mini-project.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -956,16 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text_learning/vectorize_text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding>
-            <element signature="e#19#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/startup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -975,20 +941,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/feature-selection-exercises/poi_flag_email.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="75" column="35" lean-forward="false" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+        <state relative-caret-position="945">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding>
-            <element signature="e#137#147#0" expanded="true" />
+            <element signature="e#137#147#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_learning/vectorize_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="e#19#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/feature-selection-exercises/studentMain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        <state relative-caret-position="236">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#19#28#0" expanded="true" />
+            <element signature="e#19#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature-selection-exercises/get_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2265">
+          <caret line="151" column="15" lean-forward="false" selection-start-line="151" selection-start-column="15" selection-end-line="151" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feature-selection-exercises/studentCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="40" column="24" lean-forward="false" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

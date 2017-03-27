@@ -68,8 +68,7 @@ def poiFlagEmail(f):
     ### the email is from a POI #####
     #################################
 
-
-
+    from_poi = (from_emails[0] in poi_email_list)
 
 
     #################################
