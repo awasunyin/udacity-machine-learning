@@ -54,7 +54,7 @@ for name, from_person in [("sara", from_sara), ("chris", from_chris)]:
 
             ### use str.replace() to remove any instances of the words
             ### ["sara", "shackleton", "chris", "germani"]
-            for signature_word in ["sara", "shackleton", "chris", "germani"]:
+            for signature_word in ["sara", "shackleton", "chris", "germani", "sshacklensf", "cgermannsf"]:
                 text = text.replace(signature_word, '')
 
             ### append the text to word_data
@@ -99,7 +99,6 @@ In the box below, put the string that you get for word_data[152].
 START QUIZ
 """
 
-### in Part 4, do TfIdf vectorization here
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 vectorizer = TfidfVectorizer(stop_words = 'english')
@@ -110,3 +109,6 @@ print vectorizer.get_feature_names()[34597]
 # 38757
 # stephaniethank
 
+# tjonesnsf stephani and sam need nymex calendar
+# 38756
+# stephanlonect
